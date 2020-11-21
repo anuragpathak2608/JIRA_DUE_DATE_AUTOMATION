@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+	<p>
+    Hello Team,
+    </p>
+    <p><strong>Subjected JIRA is about to due in next two weeks, kindly take the required action</strong></p>
+    <p><strong>Please find the below JIRA details for more information</strong></p>
+	
+	<!-- CSS Code: Place this code in the document's head (between the <head> -- </head> tags) -->
+<style>
+table.customTable {
+  width: 900px;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #7EA8F8;
+  border-style: solid;
+  color: #1C0409;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 2px;
+  border-color: #7EA8F8;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.customTable thead {
+  background-color: #7EA8F8;
+}
+</style>
+
+<!-- HTML Code: Place this code in the document's body (between the <body> tags) where the table should appear -->
+<table class="customTable">
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>JIRA ID</th>
+      <th>Summary</th>
+      <th>Due Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><?= appname ?></td>
+      <td><?= jira?></td>
+      <td><?= summary?></td>
+      <td><?= duedate?></td>
+    </tr>
+  </tbody>
+</table>
+<!-- Generated at CSSPortal.com -->
+
+<p>Best Regards,</p>
+<p>Application Security,<br>Comapany</p>
+    
+  </body>
+</html>
+
+
